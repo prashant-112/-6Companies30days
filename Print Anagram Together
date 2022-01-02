@@ -1,4 +1,5 @@
-    vector<vector<string> > Anagrams(vector<string>& string_list){
+   
+   vector<vector<string> > Anagrams(vector<string>& string_list){
     map<string, vector<string>>m;
     
     for(int i=0;i<string_list.size();i++)
